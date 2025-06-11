@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -tp1
+ls -tp | grep -v / | head -n 10
+
